@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4390885000000fs"></ZoomStartTime>
+      <ZoomEndTime time="14890885000001fs"></ZoomEndTime>
+      <Cursor1Time time="10260885000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="241"></NameColumnWidth>
+      <ValueColumnWidth column_width="237"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wave_markers>
+      <marker time="2454215000000" label="" />
+      <marker time="2454255000000" label="" />
+      <marker time="4283200000000" label="" />
+      <marker time="4448305000000" label="" />
+      <marker time="4448305000000" label="" />
+      <marker time="4448265000000" label="" />
+      <marker time="4283120500000" label="" />
+      <marker time="5319455000000" label="" />
+      <marker time="14646935000000" label="" />
+      <marker time="14659455000000" label="" />
+      <marker time="14665455000000" label="" />
+      <marker time="12623455000000" label="" />
+      <marker time="12636455000000" label="" />
+      <marker time="12617455000000" label="" />
+      <marker time="5331455000000" label="" />
+      <marker time="5313455000000" label="" />
+      <marker time="9097645000000" label="" />
+      <marker time="265000000" label="" />
+      <marker time="10260815000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dout" type="logic">
+      <obj_property name="ElementShortName">dout</obj_property>
+      <obj_property name="ObjectShortName">dout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ch1_data" type="array">
+      <obj_property name="ElementShortName">ch1_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ch1_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ch2_data" type="array">
+      <obj_property name="ElementShortName">ch2_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ch2_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/lpf_2" type="array">
+      <obj_property name="ElementShortName">lpf_2[34:0]</obj_property>
+      <obj_property name="ObjectShortName">lpf_2[34:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/mix_res" type="array">
+      <obj_property name="ElementShortName">mix_res[39:0]</obj_property>
+      <obj_property name="ObjectShortName">mix_res[39:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-400000000.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">400000000.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/hpf_0" type="array">
+      <obj_property name="ElementShortName">hpf_0[55:0]</obj_property>
+      <obj_property name="ObjectShortName">hpf_0[55:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-4000000000000.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">4000000000000.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/lpf_1" type="array">
+      <obj_property name="ElementShortName">lpf_1[34:0]</obj_property>
+      <obj_property name="ObjectShortName">lpf_1[34:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/FDM_out" type="array">
+      <obj_property name="ElementShortName">FDM_out[57:0]</obj_property>
+      <obj_property name="ObjectShortName">FDM_out[57:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-4.06647e+12</obj_property>
+      <obj_property name="AnalogYRRangeMax">3.69004e+12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_sim_inst/div_out" type="array">
+      <obj_property name="ElementShortName">div_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">div_out[63:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_sim_inst/FDM_scaled_out" type="array">
+      <obj_property name="ElementShortName">FDM_scaled_out[12:0]</obj_property>
+      <obj_property name="ObjectShortName">FDM_scaled_out[12:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_sim_inst/offset" type="array">
+      <obj_property name="ElementShortName">offset[15:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/FM_out" type="array">
+      <obj_property name="ElementShortName">FM_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FM_out[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/FFT_amp" type="array">
+      <obj_property name="ElementShortName">FFT_amp[63:0]</obj_property>
+      <obj_property name="ObjectShortName">FFT_amp[63:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-1501</obj_property>
+      <obj_property name="AnalogYRRangeMax">3492</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fft_real" type="array">
+      <obj_property name="ElementShortName">fft_real[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_real[31:0]</obj_property>
+   </wvobject>
+</wave_config>
